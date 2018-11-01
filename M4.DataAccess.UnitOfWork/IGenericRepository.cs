@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace M4.DataAccess.UnitOfWork.MongoDb
+namespace M4.DataAccess.UnitOfWork
 {
     public interface IGenericRepository<TEntity> where TEntity : class
     {
