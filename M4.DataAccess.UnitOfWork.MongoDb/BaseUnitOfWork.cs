@@ -18,15 +18,15 @@ namespace M4.DataAccess.UnitOfWork.MongoDb
 
         public int Save()
         {
-            throw new NotImplementedException();
+            return 1;
         }
 
-        public Task<int> SaveAsync()
+        public async Task<int> SaveAsync()
         {
-            throw new NotImplementedException();
+            return 1;
         }
 
-        protected IMongoCollection<TEntity> GetCollection<TEntity>(string collectionName)
+        protected IMongoCollection<TEntity> GetCollection<TEntity>(string collectionName) where TEntity : class, IBaseEntity
         {
             return _mongoDatabase.GetCollection<TEntity>(collectionName);
         }
