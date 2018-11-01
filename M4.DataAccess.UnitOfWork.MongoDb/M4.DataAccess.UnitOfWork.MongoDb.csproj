@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\M4.DataAccess.UnitOfWork\M4.DataAccess.UnitOfWork.csproj" />
   </ItemGroup>
 
