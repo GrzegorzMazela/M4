@@ -6,7 +6,6 @@
     <PackageVersion>1.0.0</PackageVersion>
     <Authors>gmazela</Authors>
     <Description>https://github.com/GrzegorzMazela/M4</Description>
-    <PackageRequireLicenseAcceptance>yes</PackageRequireLicenseAcceptance>
     <PackageReleaseNotes>UnitOfWork MongoDB implementation</PackageReleaseNotes>
   </PropertyGroup>
 
