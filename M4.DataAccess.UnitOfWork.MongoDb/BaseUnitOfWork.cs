@@ -26,8 +26,9 @@ namespace M4.DataAccess.UnitOfWork.MongoDb
             return 1;
         }
 
-        protected IMongoCollection<TEntity> GetCollection<TEntity>(string collectionName) where TEntity : class, IBaseEntity
+        protected IMongoCollection<TEntity> GetCollection<TEntity>() where TEntity : class, IBaseEntity
         {
+            var collectionName = typeof(TEntity).Name;
             return _mongoDatabase.GetCollection<TEntity>(collectionName);
         }
 
