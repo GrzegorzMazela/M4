@@ -1,7 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>M4.DataAccess.UnitOfWork.MongoDb</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>gmazela</Authors>
+    <Description>https://github.com/GrzegorzMazela/M4</Description>
+    <PackageRequireLicenseAcceptance>yes</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>UnitOfWork MongoDB implementation</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
