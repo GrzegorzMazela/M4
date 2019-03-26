@@ -3,13 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M4.DataAccess.UnitOfWork", "M4.DataAccess.UnitOfWork\M4.DataAccess.UnitOfWork.csproj", "{13507AC8-6D31-4C5B-B419-463CE3EC6216}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M4.DataAccess.UnitOfWork", "M4.DataAccess.UnitOfWork\M4.DataAccess.UnitOfWork.csproj", "{13507AC8-6D31-4C5B-B419-463CE3EC6216}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{89AD3EB4-721C-4054-97A8-CFB572FAD39C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M4.DataAccess.UnitOfWork.EFCore", "M4.DataAccess.UnitOfWork.EFCore\M4.DataAccess.UnitOfWork.EFCore.csproj", "{0D0843EE-0DEF-4B59-9725-293220807D67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M4.DataAccess.UnitOfWork.EFCore", "M4.DataAccess.UnitOfWork.EFCore\M4.DataAccess.UnitOfWork.EFCore.csproj", "{0D0843EE-0DEF-4B59-9725-293220807D67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M4.DataAccess.UnitOfWork.MongoDb", "M4.DataAccess.UnitOfWork.MongoDb\M4.DataAccess.UnitOfWork.MongoDb.csproj", "{B82AEF8E-872B-4C9F-BFBD-B4C28D1F689C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M4.DataAccess.UnitOfWork.MongoDb", "M4.DataAccess.UnitOfWork.MongoDb\M4.DataAccess.UnitOfWork.MongoDb.csproj", "{B82AEF8E-872B-4C9F-BFBD-B4C28D1F689C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLogic", "BusinessLogic", "{A29C2DB6-1D7A-4ABB-A8DA-E3E42779154A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataContracts", "DataContracts", "{31C2D85A-FB3E-45DC-ACDC-CE29565115EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M4.DataContracts.CQRS", "M4.DataContracts.CQRS\M4.DataContracts.CQRS.csproj", "{63778A02-E37F-4186-89B5-67C4900ACBDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M4.BusinessLogic.CQRS", "M4.BusinessLogic.CQRS\M4.BusinessLogic.CQRS.csproj", "{FE5C25ED-AB67-4F38-B8E8-12AC40E61A89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +37,14 @@ Global
 		{B82AEF8E-872B-4C9F-BFBD-B4C28D1F689C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B82AEF8E-872B-4C9F-BFBD-B4C28D1F689C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B82AEF8E-872B-4C9F-BFBD-B4C28D1F689C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63778A02-E37F-4186-89B5-67C4900ACBDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63778A02-E37F-4186-89B5-67C4900ACBDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63778A02-E37F-4186-89B5-67C4900ACBDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63778A02-E37F-4186-89B5-67C4900ACBDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE5C25ED-AB67-4F38-B8E8-12AC40E61A89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE5C25ED-AB67-4F38-B8E8-12AC40E61A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE5C25ED-AB67-4F38-B8E8-12AC40E61A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE5C25ED-AB67-4F38-B8E8-12AC40E61A89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +53,8 @@ Global
 		{13507AC8-6D31-4C5B-B419-463CE3EC6216} = {89AD3EB4-721C-4054-97A8-CFB572FAD39C}
 		{0D0843EE-0DEF-4B59-9725-293220807D67} = {89AD3EB4-721C-4054-97A8-CFB572FAD39C}
 		{B82AEF8E-872B-4C9F-BFBD-B4C28D1F689C} = {89AD3EB4-721C-4054-97A8-CFB572FAD39C}
+		{63778A02-E37F-4186-89B5-67C4900ACBDF} = {31C2D85A-FB3E-45DC-ACDC-CE29565115EC}
+		{FE5C25ED-AB67-4F38-B8E8-12AC40E61A89} = {A29C2DB6-1D7A-4ABB-A8DA-E3E42779154A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5739A39-227C-43F8-9280-C0F0BF9C8E06}
