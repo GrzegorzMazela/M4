@@ -15,9 +15,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLogic", "BusinessLo
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataContracts", "DataContracts", "{31C2D85A-FB3E-45DC-ACDC-CE29565115EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M4.DataContracts.CQRS", "M4.DataContracts.CQRS\M4.DataContracts.CQRS.csproj", "{63778A02-E37F-4186-89B5-67C4900ACBDF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M4.DataContracts.CQS", "M4.DataContracts.CQS\M4.DataContracts.CQS.csproj", "{63778A02-E37F-4186-89B5-67C4900ACBDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M4.BusinessLogic.CQRS", "M4.BusinessLogic.CQRS\M4.BusinessLogic.CQRS.csproj", "{FE5C25ED-AB67-4F38-B8E8-12AC40E61A89}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M4.BusinessLogic.CQS", "M4.BusinessLogic.CQS\M4.BusinessLogic.CQS.csproj", "{FE5C25ED-AB67-4F38-B8E8-12AC40E61A89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

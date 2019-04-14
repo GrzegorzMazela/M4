@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.5.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\M4.DataAccess.UnitOfWork\M4.DataAccess.UnitOfWork.csproj" />
+    <ProjectReference Include="..\M4.DataContracts.CQS\M4.DataContracts.CQS.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="IoC\" />
+  </ItemGroup>
+
+</Project>
